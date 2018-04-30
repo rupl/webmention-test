@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "dependencies": {
+    "microformat-node": "^2.0.1",
+    "node-fetch": "^2.1.2"
+  }
+}

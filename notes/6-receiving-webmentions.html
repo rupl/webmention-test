@@ -2,7 +2,7 @@
 <html lang="en-US" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Webmention testing</title>
+  <title>Receiving Webmentions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base href="https://rupl.github.io/webmention-test/">
   <style type="text/css">
@@ -17,15 +17,28 @@
   </style>
 </head>
 <body>
-  <h1>Testing Webmentions</h1>
-  <p>I needed a few source URLs for testing webmentions on my personal site. This static site provides them.</p>
+  <main>
+    <article class="h-entry">
+      <h1 class="p-name">Receiving Webmentions</h1>
+      <div class="e-content">
+        <p>My site is finally able to <a rel="me" href="https://chrisruppel.com/blog/receiving-webmentions/">receive webmentions</a>! This is a test reply from a GitHub Pages site just to show what it can look like with a reply that uses microformats.</p>
+      </div>
+      <footer>
+        <p>
+          Published by <a class="p-author h-card" href="https://rupl.github.io/webmention-test/">Chris Ruppel</a>
+          on <time class="dt-published" datetime="2018-04-30 21:36:00">30<sup>th</sup> April 2018</time>
+        </p>
+      </footer>
+    </article>
+  </main>
 
   <footer role="contentinfo">
+    <h2>Other sample URLs</h2>
     <ul>
       <li><a href="notes/1-elcotillo.html">Note 1: El Cotillo</a></li>
       <li><a href="notes/2-brave-ghpages.html">Note 2: Brave + GH-Pages</a></li>
       <li><a href="notes/3-brave-payments.html">Note 3: Brave Payments</a></li>
-      <li><a href="notes/3-no-url.html">Note 4: Missing target URL</a></li>
+      <li><a href="notes/4-no-url.html">Note 4: Missing target URL</a></li>
       <li><a href="notes/5-table-mountain.html">Note 5: Table Mountain</a></li>
       <li><a href="notes/6-receiving-webmentions.html">Note 6: Receiving Webmentions</a></li>
     </ul>
